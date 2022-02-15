@@ -1,0 +1,50 @@
+/* ...........................Form............................. */
+*{
+    box-sizing: border-box;
+}
+.form_h2{
+    color: green;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.update_h2{
+    color: blue;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.registration_form{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center ;
+    /* padding: 5px; */
+    margin: 40px 5px 0 5px;
+}
+form{
+    /* border: 2px solid black; */
+    width:700px;
+    padding: 5px;
+}
+form label{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 2px 0;
+}
+form #radio{
+    font-size: 18px;
+    /* border: 2px solid red; */
+    margin-left: 100px;
+}
+form #inp{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+form #btn{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+span{
+    font-size: 20px;
+}
